@@ -18,7 +18,7 @@ export const en = defineConfig({
 
     footer: {
       message: "Released under the MIT License.",
-      copyright: "Copyright © 2019-present Evan You",
+      copyright: "Copyright © 2019-present Leyen",
     },
 
     docFooter: {
@@ -53,6 +53,11 @@ function nav(): DefaultTheme.NavItem[] {
       text: "Guide",
       link: "/guide/what-is-ui-design",
       activeMatch: "/guide/",
+    },
+    {
+      text: "Navigation",
+      link: "/navigation",
+      activeMatch: "/navigation/",
     },
   ];
 }

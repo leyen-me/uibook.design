@@ -54,6 +54,11 @@ function nav(): DefaultTheme.NavItem[] {
       link: "/zh/guide/what-is-ui-design",
       activeMatch: "/zh/guide/",
     },
+    {
+      text: "导航",
+      link: "/zh/navigation",
+      activeMatch: "/zh/navigation/",
+    },
   ];
 }
 
